@@ -1,0 +1,46 @@
+body {
+  background-color: #EEEEEE;
+  font-family: "Arial", sans-serif;
+}
+
+header div {
+  text-align: center;
+  background: #BFDDF0;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.photo {
+  width: 30%;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  padding: 0;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 35px;
+  object-fit: cover;
+}
+
+.Info {
+  width: 70%;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ACBAC4;
+  padding: 30px;
+  text-align: center;
+}
