@@ -1,46 +1,69 @@
 body {
-  background-color: #EEEEEE;
+  background: radial-gradient(circle at top left, #2f4f72 0%, #1f2937 60%);
+  color: #f4f7fb;
   font-family: "Arial", sans-serif;
+  min-height: 100vh;
+  margin: 0;
 }
 
 header div {
   text-align: center;
-  background: #BFDDF0;
+  background: linear-gradient(135deg, #4fa4c4, #1f4f6b);
   border-radius: 50px;
-  padding: 5px;
+  padding: 16px 24px;
+  margin: 16px auto;
+  max-width: 720px;
+}
+
+header > div > h1 {
+  margin: 0;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
 section {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: stretch;
   padding: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .photo {
-  width: 30%;
+  width: 35%;
   border-radius: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
-  padding: 0;
+  background: #0f1724;
+  padding: 8px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
 }
 
 .photo img {
   width: 100%;
   height: auto;
-  border-radius: 35px;
+  border-radius: 28px;
   object-fit: cover;
 }
 
 .Info {
-  width: 70%;
+  font-weight: 300;
+  width: 65%;
   border-radius: 35px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ACBAC4;
-  padding: 30px;
-  text-align: center;
+  align-items: stretch;
+  background: linear-gradient(145deg, #eaf3f8, #c5d8e6);
+  padding: 28px;
+  text-align: justify;
+  box-shadow: 0 18px 40px rgba(15, 23, 36, 0.18);
+  color: #1f2a38;
+}
+
+.Info p {
+  width: 100%;
+  margin: 0;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
 }
